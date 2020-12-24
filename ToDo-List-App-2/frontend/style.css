@@ -1,0 +1,36 @@
+.todo-item,
+.edit-item,
+.remove-item,
+.update-item,
+.cancel-item {
+  cursor: pointer;
+}
+
+.edit-item {
+  color: blue;
+}
+
+.update-item {
+  color: green;
+}
+
+.remove-item,
+.cancel-item {
+  color: red;
+}
+
+input.todo-item {
+  border-width: 0;
+}
+
+input.todo-item:focus {
+  outline: none;
+}
+
+#ul_list {
+  padding-left: 0;
+}
+
+#ul_list li {
+  list-style-type: none;
+}
